@@ -35,7 +35,7 @@ function Home() {
                             Lord Beelzebul. In their journey, players must collect heroes from different races to overcome toug
                             h challenges. Each choice made during a quest can alter the storyline and expose your heroes to mysteries
                             and hidden treasures.</p>
-                        <div className='content-divider bg-red-900 rotate-90 invisible lg:visible'></div>
+                        <div className='content-divider bg-red-900 rotate-90 invisible lg:visible absolute w-[351px] h-[1px] left-[230px] top-[170px] '></div>
                     </div>
                     <div className='w-[90%]  sm:w-[95%] h-full  lg:max-w-auto mt-5   flex justify-end relative '
                     >

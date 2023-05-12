@@ -18,7 +18,7 @@ function App() {
     <div className="App">
      <NavBar/>
      <Banner />
-     <div className='home'>
+     <div className='home w-full pt-24 '>
         <Home />
         <Heroes />
         <HomeFeatures />

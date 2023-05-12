@@ -6,7 +6,7 @@ import humanWarrior from '../images/human.83a89a9e.png'
 import bannerBar from '../images/banner-bar.a8010a94.png'
 import bannerPlaceholder from '../images/banner-placeholder-full.f97d604c.png'
 import playNow from '../images/play-now.f8ed8839.png'
-import './NavBar.css'
+import '../App.css'
 function Banner() {
   return (
     <div className='h-[500px] lg:h-[800px] relative'

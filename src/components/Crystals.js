@@ -22,27 +22,16 @@ function Crystals() {
                     <img src={crystal} alt='' />
                 </div>
                 <div className='sm:w-0 m-auto sm:h-0'>
-
-                    <div className='flex flex-wrap justify-around'>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
-                    </div>
-                    <div className='flex flex-wrap justify-around'>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
-                    </div>
-                    <div className='flex flex-wrap justify-around'>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
-                    </div>
-                    <div className='flex flex-wrap justify-around'>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
-                    </div>
-                    <div className='flex flex-wrap justify-around'>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
-                        <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
-                    </div>
+                {[...Array(5)].map((_, i) => {
+                        return (
+                            <div className='flex flex-wrap justify-around'>
+                            <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2 " alt=''/>
+                            <img src={singleCRystal} className="h-16 mt-4 mr-2 ml-2" alt=''/>
+                        </div>
+                        );
+                    })}
+                  
+                    
                 </div>
             </div>
 

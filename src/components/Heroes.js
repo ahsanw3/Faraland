@@ -38,7 +38,7 @@ function Heroes() {
           <img src={bg} alt='' className='mt-2 mb-2' />
           <img src={bg} alt='' className='mt-2 mb-2' />
         </div>
-        <div className='heroes__divider mb-5 '></div>
+        <div className='divider mb-5 z-10 relative h-[1px]'></div>
         <div className='flex  w-4/5 m-auto justify-center flex-wrap'>
           {[...Array(7)].map((_, i) => {
             return (
@@ -51,7 +51,7 @@ function Heroes() {
           })}
 
         </div>
-        <div className='heroes__divider mt-5 mb-7'></div>
+        <div className='divider z-10 relative h-[1px] mt-5 mb-7'></div>
         <div className='flex flex-col md:flex-row  max-w-[1500px] w-90%  '>
           <div className="w-90% mt-16 relative  lg:w-[45%]   ">
             <img src={humanBg} className="ml-5 pt-5 pb-5  h-96"  alt=''/>
@@ -102,7 +102,7 @@ function Heroes() {
             </div>
           </div>
         </div>
-        <div className='heroes__divider mb-5 '></div>
+        <div className='divider mb-5 z-10 relative h-[1px]  '></div>
 
       </div>
     </div>
