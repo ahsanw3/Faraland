@@ -1,16 +1,16 @@
 import './App.css';
-import NavBar from './components/NavBar';
-import Home from './components/Home';
-import Banner from './components/Banner';
-import Heroes from './components/Heroes';
-import Crystals from './components/Crystals';
-import HomeFeatures from './components/HomeFeatures';
-import SoulStone from './components/SoulStone';
-import Backers from './components/Backers';
-import Secure from './components/Secure';
-import Footer from './components/Footer';
-import Features from './components/Features';
-import RoadMap from './components/RoadMap';
+import Backers from './components/backers';
+import Banner from './components/banner/index';
+import Crystals from './components/crystals';
+import Features from './components/features';
+import Footer from './components/footer/index';
+import Heroes from './components/heroes';
+import Home from './components/Home/index';
+import HomeFeatures from './components/homefeatures';
+import NavBar from './components/navbar/index';
+import RoadMap from './components/roadmap';
+import Secure from './components/secure';
+import SoulStone from './components/soulstone';
 function App() {
   return (
     <>
