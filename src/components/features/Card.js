@@ -1,6 +1,6 @@
+import React from 'react'
 import  featuresData from '../../assets/features/content'
 import marketplace from '../../assets/features/images/marketplace.97b34048.png'
-import React from 'react'
 import viewButton from '../../assets/features/images/view-button.4e411843.svg'
 function Card() {
   return (

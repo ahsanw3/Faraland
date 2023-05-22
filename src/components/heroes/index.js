@@ -1,3 +1,4 @@
+import React from 'react'
 import bg from '../../assets/heroes/images/download-android.31c566ad.png'
 import BigHumanFemale from '../../assets/heroes/images/female_human.304bcdf4.png'
 import BigHumanMale from '../../assets/heroes/images/male_human.807b6c57.png'
@@ -10,7 +11,6 @@ import human from '../../assets/heroes/images/human-male.bd9b3350.png'
 import humanBg from '../../assets/heroes/images/humanbg.6923d53c.png'
 import humanRing from '../../assets/heroes/images/activeHuman.png'
 import maleGif from '../../assets/heroes/images/male.315f4d2c.gif'
-import React from 'react'
 function Heroes() {
   return (
     <div  className='w-full'>

@@ -1,8 +1,8 @@
+import React from 'react'
 import { useState } from "react";
 import tick from "../../assets/roadmap/images/check-icon.71bbae7a.svg"
 import left from '../../assets/roadmap/images/timeline-dot.7a9b20c6.svg'
 import right from '../../assets/roadmap/images/timeline-dot-right.0af7aed0.svg'
-import React from 'react'
 import '../../App.css'
 import { roadmapData } from '../../assets/roadmap/content';
 function RoadMap() {

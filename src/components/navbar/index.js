@@ -1,8 +1,8 @@
+import React from 'react'
+import { useState } from "react";
 import headerFrame from '../../assets//navbar/images/header-frame.png'
 import jaxImg from '../../assets//navbar/images/faraland.svg'
 import { navData } from '../../assets/navbar/content';
-import { useState } from "react";
-import React from 'react'
 import '../../App.css'
 
 function NavBar() {

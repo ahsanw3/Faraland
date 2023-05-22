@@ -1,6 +1,6 @@
+import React from 'react'
 import bispaw from '../../assets/footer/images/biswap.d7c0fcca.png'
 import { footerData } from '../../assets/footer/content'
-import React from 'react'
 
 function Footer() {
     return (

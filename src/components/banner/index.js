@@ -1,3 +1,4 @@
+import React from 'react'
 import bannerBar from '../../assets/banner/images/banner-bar.a8010a94.png'
 import bannerData from  '../../assets/banner/content'
 import bannerPlaceholder from '../../assets/banner/images/banner-placeholder-full.f97d604c.png'
@@ -6,7 +7,6 @@ import dragon from "../../assets/banner/images/orc.465371dc.png"
 import humanWarrior from '../../assets/banner/images/human.83a89a9e.png'
 import jara from '../../assets/banner/images/faraland.svg'
 import playNow from '../../assets/banner/images/play-now.f8ed8839.png'
-import React from 'react'
 import '../../App.css'
 function Banner() {
   return (

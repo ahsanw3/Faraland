@@ -1,7 +1,7 @@
+import React from 'react'
 import Epic from '../../assets/homefeatures/images/epic.7f9f48e7.png'
 import gridOfSTones from '../../assets/homefeatures/images/type-advantages.e18dc051.png'
 import HumanScar from '../../assets/homefeatures/images/Scar.9795d75a.png'
-import React from 'react'
 
 import geenCrystal from '../../assets/homefeatures/images/geenCrystal'
 import { homefeaturesData } from '../../assets/homefeatures/content'
